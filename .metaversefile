@@ -1,0 +1,19 @@
+{
+  "name": "editphone",
+  "description": "a scene edit tool",
+  "start_url": "index.js",
+  "components": [
+    {
+      "key": "physics",
+      "value": true
+    },
+    {
+      "key": "wear",
+      "value": {
+        "boneAttachment": "leftHand",
+        "position": [-0.3, 0.7, -0.15],
+        "quaternion": [0, 0, 0.9510565162951536, -0.30901699437494734]
+      }
+    }
+  ]
+}
